@@ -40,7 +40,7 @@
 #define MSG_BACK                            _UxGT("Zpet")
 #define MSG_SD_INSERTED                     _UxGT("Karta vlozena")
 #define MSG_SD_REMOVED                      _UxGT("Karta vyjmuta")
-#define MSG_LCD_ENDSTOPS                    _UxGT("Endstopy") // max 8 znaku
+#define MSG_LCD_ENDSTOPS                    _UxGT("Koncaky") // max 8 znaku
 #define MSG_MAIN                            _UxGT("Hlavni nabidka")
 #define MSG_AUTOSTART                       _UxGT("Autostart")
 #define MSG_DISABLE_STEPPERS                _UxGT("Uvolnit motory")
@@ -56,8 +56,8 @@
 #define MSG_LEVEL_BED_NEXT_POINT            _UxGT("Dalsi bod")
 #define MSG_LEVEL_BED_DONE                  _UxGT("Mereni hotovo!")
 #define MSG_Z_FADE_HEIGHT                   _UxGT("Vyska srovnavani")
-#define MSG_SET_HOME_OFFSETS                _UxGT("Nastavit ofsety")
-#define MSG_HOME_OFFSETS_APPLIED            _UxGT("Ofsety nastaveny")
+#define MSG_SET_HOME_OFFSETS                _UxGT("Nastavit kompenzace")
+#define MSG_HOME_OFFSETS_APPLIED            _UxGT("Kompenzace nastaveny")
 #define MSG_SET_ORIGIN                      _UxGT("Nastavit pocatek")
 #define MSG_PREHEAT_1                       _UxGT("Zahrat PLA")
 #define MSG_PREHEAT_1_N                     MSG_PREHEAT_1 _UxGT(" ")
@@ -288,7 +288,7 @@
 #define MSG_BABYSTEP_X                      _UxGT("Babystep X")
 #define MSG_BABYSTEP_Y                      _UxGT("Babystep Y")
 #define MSG_BABYSTEP_Z                      _UxGT("Babystep Z")
-#define MSG_ENDSTOP_ABORT                   _UxGT("Endstop abort")
+#define MSG_ENDSTOP_ABORT                   _UxGT("Endstop abort") //TODO
 #define MSG_HEATING_FAILED_LCD              _UxGT("Chyba zahrivani")
 #define MSG_ERR_REDUNDANT_TEMP              _UxGT("REDUND. TEPLOTA")
 #define MSG_THERMAL_RUNAWAY                 _UxGT("TEPLOTNI SKOK")
